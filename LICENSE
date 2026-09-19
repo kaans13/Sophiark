@@ -1,88 +1,29 @@
-SOPHIARK NON-COMMERCIAL RESEARCH LICENSE
-Version 1.0
+## License
 
-Copyright (c) 2026 Metin Kaan Temizer
+Sophiark is distributed under the **Sophiark Non-Commercial Research License v1.0**.
 
-1. GRANT OF RIGHTS
+The license permits:
 
-Subject to the terms of this License, the copyright holder grants you a non-exclusive, worldwide, royalty-free license to:
+* personal use,
+* educational use,
+* academic and non-commercial research,
+* source-code study,
+* copying and redistribution,
+* modification and derivative works,
+* distribution of modified versions,
 
-* use the Software for personal, educational, academic, and non-commercial research purposes;
-* study the source code;
-* copy and redistribute the Software;
-* modify the Software and create derivative works;
-* distribute modified versions of the Software;
+provided that the license terms and attribution requirements are respected.
 
-provided that all applicable terms of this License are respected.
+**Commercial use is not permitted without prior written permission from the copyright holder.** This includes commercial products, paid services, SaaS, APIs, hosted services, and other uses primarily intended to generate commercial revenue.
 
-2. NON-COMMERCIAL USE ONLY
+All permitted public use and redistribution must retain the original copyright notice and provide clear attribution to Sophiark and its original author.
 
-The Software may not be used for Commercial Purposes without prior written permission from the copyright holder.
+See [`LICENSE`](LICENSE) for the complete license terms.
 
-"Commercial Purposes" means use of the Software, or a derivative work based substantially on the Software, in connection with:
+### Third-Party Materials
 
-* selling or licensing the Software or a derivative work;
-* providing the Software as a paid service, hosted service, SaaS, API, or similar commercial service;
-* incorporating the Software into a commercial product or service;
-* using the Software primarily to generate commercial revenue.
+The Sophiark software license applies only to original Sophiark material.
 
-Commercial permission may be granted separately by the copyright holder under terms agreed in writing.
+The Sophiark database package contains and/or references third-party biological resources. These resources may have separate licenses, attribution requirements, and terms of use. The Sophiark license does not grant additional rights to third-party materials.
 
-3. ATTRIBUTION
-
-Any permitted redistribution, publication, academic work, derivative work, or other public use of the Software must provide clear attribution to Sophiark and its original author.
-
-At minimum, attribution must include:
-
-"Sophiark — deterministic protein-network perturbation simulation, by Metin Kaan Temizer"
-
-and a link to the official Sophiark repository when a link can reasonably be provided.
-
-Attribution must not imply endorsement by the copyright holder unless explicitly authorized.
-
-4. MODIFIED VERSIONS
-
-Modified versions may be created and distributed for permitted non-commercial purposes.
-
-Modified versions must:
-
-* retain this License;
-* retain the original copyright notice;
-* clearly indicate that the version has been modified;
-* preserve the required Sophiark attribution.
-
-5. THIRD-PARTY MATERIALS
-
-This License applies only to original Sophiark software and other material expressly identified as being covered by this License.
-
-Third-party datasets, databases, libraries, models, documentation, images, trademarks, and other external materials included with, referenced by, or used by Sophiark may be subject to separate licenses and terms.
-
-Nothing in this License grants rights to third-party materials beyond the rights granted by their respective licenses.
-
-6. NO TRADEMARK LICENSE
-
-This License does not grant permission to use the Sophiark name, logo, trademarks, or branding except as reasonably necessary to provide the required attribution.
-
-7. NO WARRANTY
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
-
-8. LIMITATION OF LIABILITY
-
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
-
-9. TERMINATION
-
-The rights granted under this License terminate automatically if you materially violate its terms.
-
-Rights may be reinstated if the violation is fully cured within a reasonable period after written notice, where applicable law permits such reinstatement.
-
-10. NO ADDITIONAL RESTRICTIONS
-
-Except for the restrictions expressly stated in this License, permitted non-commercial use, copying, modification, and redistribution are allowed.
-
-11. GOVERNING TERMS
-
-This License is intended to define the conditions under which Sophiark may be used, studied, modified, and redistributed for non-commercial purposes.
-
-If any provision of this License is held unenforceable, the remaining provisions shall remain in effect to the extent permitted by applicable law.
+Users are responsible for complying with the applicable terms of those third-party resources.
