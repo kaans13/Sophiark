@@ -1,0 +1,1 @@
+"""Sophiark çalışma alanı sayfaları."""

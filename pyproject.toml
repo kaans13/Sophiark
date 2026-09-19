@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sophiark"
+version = "5.3.0"
+description = "Protein network stress simulation platform"
+requires-python = ">=3.10"
+dependencies = [
+    "igraph>=1.0,<1.1",
+    "matplotlib>=3.8,<3.12",
+    "numpy>=1.26,<2.5",
+    "pandas>=2.2,<3.1",
+    "requests>=2.31,<3",
+    "scipy>=1.11,<1.18",
+]
+
+[project.optional-dependencies]
+ui = [
+    "altair>=5.5,<7",
+    "openpyxl>=3.1,<4",
+    "plotly>=6,<7",
+    "pyvis>=0.3,<0.4",
+    "streamlit>=1.50,<1.62",
+    "XlsxWriter>=3.2,<4",
+]
+analysis = ["gseapy>=1.1,<2"]
+benchmark = ["psutil>=6,<8"]
+test = ["pytest>=8.4,<10"]
+all = [
+    "altair>=5.5,<7",
+    "gseapy>=1.1,<2",
+    "openpyxl>=3.1,<4",
+    "plotly>=6,<7",
+    "psutil>=6,<8",
+    "pytest>=8.4,<10",
+    "pyvis>=0.3,<0.4",
+    "streamlit>=1.50,<1.62",
+    "XlsxWriter>=3.2,<4",
+]
+
+[tool.setuptools.packages.find]
+include = ["src*"]

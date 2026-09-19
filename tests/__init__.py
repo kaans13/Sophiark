@@ -1,0 +1,1 @@
+"""Sophiark test paketi."""

@@ -1,0 +1,20 @@
+# Sophiark runtime dependencies
+# Python 3.10+
+
+altair>=5.5,<7
+gseapy>=1.1,<2
+igraph>=1.0,<1.1
+matplotlib>=3.8,<3.12
+numpy>=1.26,<2.5
+openpyxl>=3.1,<4
+pandas>=2.2,<3.1
+plotly>=6,<7
+psutil>=6,<8
+pyvis>=0.3,<0.4
+requests>=2.31,<3
+scipy>=1.11,<1.18
+streamlit>=1.50,<1.62
+XlsxWriter>=3.2,<4
+
+# Test suite
+pytest>=8.4,<10

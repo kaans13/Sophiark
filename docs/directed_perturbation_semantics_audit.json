@@ -1,0 +1,603 @@
+{
+  "suppression_factor": 0.001,
+  "damping": 0.85,
+  "graphs": {
+    "one_way_chain": {
+      "A": {
+        "incident_edge_attenuation": {
+          "target_baseline": 0.11615582303660361,
+          "target_perturbed": 0.11615582303660361,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": true,
+          "sink": false
+        },
+        "incoming_only_attenuation": {
+          "target_baseline": 0.11615582303660361,
+          "target_perturbed": 0.11615582303660361,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": true,
+          "sink": false
+        },
+        "outgoing_only_attenuation": {
+          "target_baseline": 0.11615582303660361,
+          "target_perturbed": 0.11615582303660361,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": true,
+          "sink": false
+        },
+        "effective_node_knockout": {
+          "target_baseline": 0.11615582303660361,
+          "target_perturbed": null,
+          "target_change": null,
+          "downstream_absolute_change": 0.17709880441772624,
+          "upstream_absolute_change": 0,
+          "total_redistribution_l1": 0.17709880441772624,
+          "median_absolute_rank_shift": 0.0,
+          "source": true,
+          "sink": false
+        },
+        "incident_equals_incoming_for_pagerank": true,
+        "outgoing_only_is_normalized_away": true
+      },
+      "B": {
+        "incident_edge_attenuation": {
+          "target_baseline": 0.2148882726177167,
+          "target_perturbed": 0.2148882726177167,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "incoming_only_attenuation": {
+          "target_baseline": 0.2148882726177167,
+          "target_perturbed": 0.2148882726177167,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "outgoing_only_attenuation": {
+          "target_baseline": 0.2148882726177167,
+          "target_perturbed": 0.2148882726177167,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "effective_node_knockout": {
+          "target_baseline": 0.2148882726177167,
+          "target_perturbed": null,
+          "target_change": null,
+          "downstream_absolute_change": 0.14944502595686665,
+          "upstream_absolute_change": 0.14358443670365612,
+          "total_redistribution_l1": 0.29302946266052277,
+          "median_absolute_rank_shift": 1.0,
+          "source": false,
+          "sink": false
+        },
+        "incident_equals_incoming_for_pagerank": true,
+        "outgoing_only_is_normalized_away": true
+      },
+      "C": {
+        "incident_edge_attenuation": {
+          "target_baseline": 0.29881085476166275,
+          "target_perturbed": 0.29881085476166275,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "incoming_only_attenuation": {
+          "target_baseline": 0.29881085476166275,
+          "target_perturbed": 0.29881085476166275,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "outgoing_only_attenuation": {
+          "target_baseline": 0.29881085476166275,
+          "target_perturbed": 0.29881085476166275,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "effective_node_knockout": {
+          "target_baseline": 0.29881085476166275,
+          "target_perturbed": null,
+          "target_change": null,
+          "downstream_absolute_change": 0.11040478984375723,
+          "upstream_absolute_change": 0.40921564460542,
+          "total_redistribution_l1": 0.5196204344491773,
+          "median_absolute_rank_shift": 1.0,
+          "source": false,
+          "sink": false
+        },
+        "incident_equals_incoming_for_pagerank": true,
+        "outgoing_only_is_normalized_away": true
+      },
+      "D": {
+        "incident_edge_attenuation": {
+          "target_baseline": 0.37014504958401695,
+          "target_perturbed": 0.37014504958401695,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": true
+        },
+        "incoming_only_attenuation": {
+          "target_baseline": 0.37014504958401695,
+          "target_perturbed": 0.37014504958401695,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": true
+        },
+        "outgoing_only_attenuation": {
+          "target_baseline": 0.37014504958401695,
+          "target_perturbed": 0.37014504958401695,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": true
+        },
+        "effective_node_knockout": {
+          "target_baseline": 0.37014504958401695,
+          "target_perturbed": null,
+          "target_change": null,
+          "downstream_absolute_change": 0,
+          "upstream_absolute_change": 0.37014504958401695,
+          "total_redistribution_l1": 0.37014504958401695,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": true
+        },
+        "incident_equals_incoming_for_pagerank": true,
+        "outgoing_only_is_normalized_away": true
+      }
+    },
+    "competing_route": {
+      "A": {
+        "incident_edge_attenuation": {
+          "target_baseline": 0.13750429700928155,
+          "target_perturbed": 0.13750429700928155,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": true,
+          "sink": false
+        },
+        "incoming_only_attenuation": {
+          "target_baseline": 0.13750429700928155,
+          "target_perturbed": 0.13750429700928155,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": true,
+          "sink": false
+        },
+        "outgoing_only_attenuation": {
+          "target_baseline": 0.13750429700928155,
+          "target_perturbed": 0.13750429700928155,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": true,
+          "sink": false
+        },
+        "effective_node_knockout": {
+          "target_baseline": 0.13750429700928155,
+          "target_perturbed": null,
+          "target_change": null,
+          "downstream_absolute_change": 0.13750429700928163,
+          "upstream_absolute_change": 0,
+          "total_redistribution_l1": 0.13750429700928163,
+          "median_absolute_rank_shift": 0.0,
+          "source": true,
+          "sink": false
+        },
+        "incident_equals_incoming_for_pagerank": true,
+        "outgoing_only_is_normalized_away": true
+      },
+      "B": {
+        "incident_edge_attenuation": {
+          "target_baseline": 0.1959436232382262,
+          "target_perturbed": 0.13762105889984882,
+          "target_change": -0.058322564338377375,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 2.7755575615628914e-17,
+          "total_redistribution_l1": 0.11664512867675472,
+          "median_absolute_rank_shift": 0.5,
+          "source": false,
+          "sink": false
+        },
+        "incoming_only_attenuation": {
+          "target_baseline": 0.1959436232382262,
+          "target_perturbed": 0.13762105889984882,
+          "target_change": -0.058322564338377375,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 2.7755575615628914e-17,
+          "total_redistribution_l1": 0.11664512867675472,
+          "median_absolute_rank_shift": 0.5,
+          "source": false,
+          "sink": false
+        },
+        "outgoing_only_attenuation": {
+          "target_baseline": 0.1959436232382262,
+          "target_perturbed": 0.1959436232382262,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "effective_node_knockout": {
+          "target_baseline": 0.1959436232382262,
+          "target_perturbed": null,
+          "target_change": null,
+          "downstream_absolute_change": 0.003803714993341145,
+          "upstream_absolute_change": 0.04691248491787384,
+          "total_redistribution_l1": 0.19594362323822623,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "incident_equals_incoming_for_pagerank": true,
+        "outgoing_only_is_normalized_away": true
+      },
+      "C": {
+        "incident_edge_attenuation": {
+          "target_baseline": 0.1959436232382262,
+          "target_perturbed": 0.13762105889984885,
+          "target_change": -0.05832256433837735,
+          "downstream_absolute_change": 5.551115123125783e-17,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.11664512867675478,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "incoming_only_attenuation": {
+          "target_baseline": 0.1959436232382262,
+          "target_perturbed": 0.13762105889984885,
+          "target_change": -0.05832256433837735,
+          "downstream_absolute_change": 5.551115123125783e-17,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.11664512867675478,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "outgoing_only_attenuation": {
+          "target_baseline": 0.1959436232382262,
+          "target_perturbed": 0.1959436232382262,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "effective_node_knockout": {
+          "target_baseline": 0.1959436232382262,
+          "target_perturbed": null,
+          "target_change": null,
+          "downstream_absolute_change": 0.003803714993341145,
+          "upstream_absolute_change": 0.04691248491787384,
+          "total_redistribution_l1": 0.19594362323822623,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "incident_equals_incoming_for_pagerank": true,
+        "outgoing_only_is_normalized_away": true
+      }
+    },
+    "alternative_source": {
+      "A": {
+        "incident_edge_attenuation": {
+          "target_baseline": 0.12507817385866166,
+          "target_perturbed": 0.12507817385866166,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": true,
+          "sink": false
+        },
+        "incoming_only_attenuation": {
+          "target_baseline": 0.12507817385866166,
+          "target_perturbed": 0.12507817385866166,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": true,
+          "sink": false
+        },
+        "outgoing_only_attenuation": {
+          "target_baseline": 0.12507817385866166,
+          "target_perturbed": 0.12507817385866166,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": true,
+          "sink": false
+        },
+        "effective_node_knockout": {
+          "target_baseline": 0.12507817385866166,
+          "target_perturbed": null,
+          "target_change": null,
+          "downstream_absolute_change": 0.06573956579016793,
+          "upstream_absolute_change": 0,
+          "total_redistribution_l1": 0.12507817385866166,
+          "median_absolute_rank_shift": 0.0,
+          "source": true,
+          "sink": false
+        },
+        "incident_equals_incoming_for_pagerank": true,
+        "outgoing_only_is_normalized_away": true
+      }
+    },
+    "feedback": {
+      "A": {
+        "incident_edge_attenuation": {
+          "target_baseline": 0.3333333333333333,
+          "target_perturbed": 0.3333333333333333,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "incoming_only_attenuation": {
+          "target_baseline": 0.3333333333333333,
+          "target_perturbed": 0.3333333333333333,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "outgoing_only_attenuation": {
+          "target_baseline": 0.3333333333333333,
+          "target_perturbed": 0.3333333333333333,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "effective_node_knockout": {
+          "target_baseline": 0.3333333333333333,
+          "target_perturbed": null,
+          "target_change": null,
+          "downstream_absolute_change": 0.33333333333333337,
+          "upstream_absolute_change": 0.33333333333333337,
+          "total_redistribution_l1": 0.33333333333333337,
+          "median_absolute_rank_shift": 1.0,
+          "source": false,
+          "sink": false
+        },
+        "incident_equals_incoming_for_pagerank": true,
+        "outgoing_only_is_normalized_away": true
+      },
+      "B": {
+        "incident_edge_attenuation": {
+          "target_baseline": 0.3333333333333333,
+          "target_perturbed": 0.3333333333333333,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "incoming_only_attenuation": {
+          "target_baseline": 0.3333333333333333,
+          "target_perturbed": 0.3333333333333333,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "outgoing_only_attenuation": {
+          "target_baseline": 0.3333333333333333,
+          "target_perturbed": 0.3333333333333333,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "effective_node_knockout": {
+          "target_baseline": 0.3333333333333333,
+          "target_perturbed": null,
+          "target_change": null,
+          "downstream_absolute_change": 0.33333333333333337,
+          "upstream_absolute_change": 0.33333333333333337,
+          "total_redistribution_l1": 0.33333333333333337,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "incident_equals_incoming_for_pagerank": true,
+        "outgoing_only_is_normalized_away": true
+      },
+      "C": {
+        "incident_edge_attenuation": {
+          "target_baseline": 0.3333333333333333,
+          "target_perturbed": 0.3333333333333333,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "incoming_only_attenuation": {
+          "target_baseline": 0.3333333333333333,
+          "target_perturbed": 0.3333333333333333,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "outgoing_only_attenuation": {
+          "target_baseline": 0.3333333333333333,
+          "target_perturbed": 0.3333333333333333,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "effective_node_knockout": {
+          "target_baseline": 0.3333333333333333,
+          "target_perturbed": null,
+          "target_change": null,
+          "downstream_absolute_change": 0.33333333333333337,
+          "upstream_absolute_change": 0.33333333333333337,
+          "total_redistribution_l1": 0.33333333333333337,
+          "median_absolute_rank_shift": 1.0,
+          "source": false,
+          "sink": false
+        },
+        "incident_equals_incoming_for_pagerank": true,
+        "outgoing_only_is_normalized_away": true
+      }
+    },
+    "acceptance_alternatives": {
+      "T": {
+        "incident_edge_attenuation": {
+          "target_baseline": 0.09575567184363268,
+          "target_perturbed": 0.06725402305522084,
+          "target_change": -0.02850164878841184,
+          "downstream_absolute_change": 0.024226401470150122,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.10545610051712383,
+          "median_absolute_rank_shift": 1.0,
+          "source": false,
+          "sink": false
+        },
+        "incoming_only_attenuation": {
+          "target_baseline": 0.09575567184363268,
+          "target_perturbed": 0.06725402305522084,
+          "target_change": -0.02850164878841184,
+          "downstream_absolute_change": 0.024226401470150122,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.10545610051712383,
+          "median_absolute_rank_shift": 1.0,
+          "source": false,
+          "sink": false
+        },
+        "outgoing_only_attenuation": {
+          "target_baseline": 0.09575567184363268,
+          "target_perturbed": 0.09575567184363268,
+          "target_change": 0.0,
+          "downstream_absolute_change": 0.0,
+          "upstream_absolute_change": 0.0,
+          "total_redistribution_l1": 0.0,
+          "median_absolute_rank_shift": 0.0,
+          "source": false,
+          "sink": false
+        },
+        "effective_node_knockout": {
+          "target_baseline": 0.09575567184363268,
+          "target_perturbed": null,
+          "target_change": null,
+          "downstream_absolute_change": 0.0733810657781645,
+          "upstream_absolute_change": 0.014043580395744493,
+          "total_redistribution_l1": 0.20236599239483025,
+          "median_absolute_rank_shift": 0.5,
+          "source": false,
+          "sink": false
+        },
+        "incident_equals_incoming_for_pagerank": true,
+        "outgoing_only_is_normalized_away": true
+      }
+    }
+  },
+  "decision": {
+    "selected_production_strategy": "incident_edge_attenuation",
+    "effective_pagerank_mechanism": "reduced incoming transition probability from upstream nodes",
+    "outgoing_scaling": "normalized away when every target outgoing arc is scaled equally",
+    "why_selected": "It is the exact directed edge-level analogue of the immutable classic incident-edge attenuation contract.",
+    "incoming_only": "PageRank-equivalent, but does not preserve the classic incident-edge contract for future edge-sensitive metrics.",
+    "outgoing_only": "Rejected: weighted PageRank row normalization makes uniform outgoing scaling ineffective.",
+    "node_removal": "Rejected for v1: changes the node universe and is materially harsher than the classic reference.",
+    "transition_influence_suppression": "Deferred: requires an explicitly substochastic/custom propagation model, not standard PageRank.",
+    "known_limitation": "A pure directed source with no incoming arcs cannot lose PageRank accessibility under incident attenuation; teleportation remains."
+  }
+}

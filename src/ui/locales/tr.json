@@ -1,0 +1,12 @@
+{
+  "language": "Dil",
+  "analysis_settings": "Analiz ayarları",
+  "workspace": "Çalışma alanı",
+  "organism": "Organizma",
+  "tissue": "Doku",
+  "target": "Hedef",
+  "advanced_settings": "Gelişmiş ayarlar",
+  "start_analysis": "Analizi Başlat",
+  "number_genes_to_test": "Test edilecek gen sayısı",
+  "gene_count_help": "Daha yüksek değerler daha geniş bir tarama yapar ancak analiz süresini artırır. 100 genlik tarama mevcut sistemde yaklaşık 5 dakika sürebilir."
+}

@@ -1,0 +1,17 @@
+"""Shared product/data statuses; missing data is never represented as zero."""
+
+from enum import Enum
+
+
+class ProductStatus(str, Enum):
+    READY = "READY"
+    PARTIAL = "PARTIAL"
+    DATA_UNAVAILABLE = "DATA_UNAVAILABLE"
+    TARGET_NOT_FOUND = "TARGET_NOT_FOUND"
+    MAPPING_FAILED = "MAPPING_FAILED"
+    ENGINE_PARTIAL = "ENGINE_PARTIAL"
+    DATA_VERSION_MISMATCH = "DATA_VERSION_MISMATCH"
+    INCOMPATIBLE_SCHEMA = "INCOMPATIBLE_SCHEMA"
+    BUILD_REQUIRED = "BUILD_REQUIRED"
+    BUILD_FAILED = "BUILD_FAILED"
+    ERROR = "ERROR"

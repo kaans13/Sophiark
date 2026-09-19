@@ -1,0 +1,1578 @@
+{
+  "status": "COMPLETE",
+  "tissue": "Lung",
+  "graph": {
+    "nodes": 16955,
+    "string_edges": 513176,
+    "direction_resolved_edges": 14077,
+    "single_direction_edges": 12915,
+    "bidirectional_evidence_edges": 1162,
+    "fallback_string_edges": 499099,
+    "directed_arcs": 1013437,
+    "omnipath_layer1_edges_not_in_string": 15069,
+    "omnipath_mapping_misses": 0,
+    "affected_unique_nodes": 5164,
+    "dropped_string_edges": 0,
+    "direction_coverage": 0.027431134737400033,
+    "tissue_context": "Lung",
+    "string_dataset_version": "STRING v12.0 local 9606 snapshot",
+    "omnipath_fingerprint": "3aca995e1ace952444304faa5c69665fa8a9c33015824025e37deeabdf15980f",
+    "direction_policy": "omnipath_direction_when_available",
+    "fallback_policy": "bidirectional_equal_weight",
+    "cache_key": "ac677dca1d7b2a59ba507891ffc03129e9ff6ecf01b0fde647fb9be630225cf9"
+  },
+  "performance": {
+    "string_graph_build_seconds": 5.037058099987917,
+    "directed_graph_build_seconds": 3.267399700009264,
+    "shared_directed_bc_seconds": 0.08828620007261634,
+    "total_memory_impact_mb": 566.55859375,
+    "string_graph_memory_mb": 101.1953125,
+    "omnipath_dataset_memory_mb": 140.8828125,
+    "hybrid_directed_graph_memory_mb": 324.48046875
+  },
+  "scenarios": {
+    "EGFR": {
+      "targets": [
+        "ENSP00000275493"
+      ],
+      "target_symbols": [
+        "EGFR"
+      ],
+      "classic_top_response": [
+        {
+          "entity": "ENSP00000366702",
+          "symbol": "ERRFI1",
+          "response_pct": -8.584715674403624
+        },
+        {
+          "entity": "ENSP00000362308",
+          "symbol": "SH3BGRL",
+          "response_pct": -5.444768489001599
+        },
+        {
+          "entity": "ENSP00000312143",
+          "symbol": "TNS3",
+          "response_pct": -5.009015499896183
+        },
+        {
+          "entity": "ENSP00000394720",
+          "symbol": "SEMA4B",
+          "response_pct": 4.89034151467211
+        },
+        {
+          "entity": "ENSP00000296129",
+          "symbol": "CDCP1",
+          "response_pct": -3.973990393027009
+        },
+        {
+          "entity": "ENSP00000175756",
+          "symbol": "PTPN18",
+          "response_pct": -3.8607865560445145
+        },
+        {
+          "entity": "ENSP00000403343",
+          "symbol": "AAMP",
+          "response_pct": -3.8289796926146167
+        },
+        {
+          "entity": "ENSP00000371420",
+          "symbol": "GPNMB",
+          "response_pct": -3.801062606681773
+        },
+        {
+          "entity": "ENSP00000402301",
+          "symbol": "LAPTM4B",
+          "response_pct": -3.751366648410264
+        },
+        {
+          "entity": "ENSP00000411898",
+          "symbol": "EPGN",
+          "response_pct": -3.7219829966379328
+        }
+      ],
+      "directed_top_response": [
+        {
+          "entity": "ENSP00000366702",
+          "symbol": "ERRFI1",
+          "response_pct": -9.634251263654846
+        },
+        {
+          "entity": "ENSP00000362308",
+          "symbol": "SH3BGRL",
+          "response_pct": -5.711300809590696
+        },
+        {
+          "entity": "ENSP00000312143",
+          "symbol": "TNS3",
+          "response_pct": -5.184526576233063
+        },
+        {
+          "entity": "ENSP00000281092",
+          "symbol": "FER",
+          "response_pct": -4.31910306528933
+        },
+        {
+          "entity": "ENSP00000175756",
+          "symbol": "PTPN18",
+          "response_pct": -4.27428909118159
+        },
+        {
+          "entity": "ENSP00000403343",
+          "symbol": "AAMP",
+          "response_pct": -4.022344032348946
+        },
+        {
+          "entity": "ENSP00000323246",
+          "symbol": "E2F7",
+          "response_pct": 3.960068514665254
+        },
+        {
+          "entity": "ENSP00000402301",
+          "symbol": "LAPTM4B",
+          "response_pct": -3.931377537854721
+        },
+        {
+          "entity": "ENSP00000261739",
+          "symbol": "ANKRD13A",
+          "response_pct": -3.849058326194333
+        },
+        {
+          "entity": "ENSP00000394049",
+          "symbol": "SLA",
+          "response_pct": -3.763845816629926
+        }
+      ],
+      "validation": {
+        "spearman_rank_correlation": 0.9747235128854289,
+        "pearson_response_correlation": 0.8783927791430239,
+        "overlap_at_20": 14,
+        "overlap_fraction_at_20": 0.7,
+        "jaccard_at_20": 0.5384615384615384,
+        "overlap_at_50": 38,
+        "overlap_fraction_at_50": 0.76,
+        "jaccard_at_50": 0.6129032258064516,
+        "overlap_at_100": 87,
+        "overlap_fraction_at_100": 0.87,
+        "jaccard_at_100": 0.7699115044247787,
+        "overlap_at_300": 270,
+        "overlap_fraction_at_300": 0.9,
+        "jaccard_at_300": 0.8181818181818182,
+        "median_absolute_rank_shift": 229.0,
+        "mean_absolute_rank_shift": 532.3516574259762,
+        "largest_rank_increases": [
+          "ENSP00000317272",
+          "ENSP00000221930",
+          "ENSP00000375892",
+          "ENSP00000496129",
+          "ENSP00000264832",
+          "ENSP00000497069",
+          "ENSP00000361423",
+          "ENSP00000303830",
+          "ENSP00000371067",
+          "ENSP00000261769"
+        ],
+        "largest_rank_decreases": [
+          "ENSP00000217188",
+          "ENSP00000481721",
+          "ENSP00000388713",
+          "ENSP00000366314",
+          "ENSP00000360689",
+          "ENSP00000339115",
+          "ENSP00000344465",
+          "ENSP00000435585",
+          "ENSP00000299163",
+          "ENSP00000254770"
+        ],
+        "ranking_metric": "absolute redistribution percent"
+      },
+      "effect_size": {
+        "mean_absolute_response_delta_pct": 0.019689754293852224,
+        "median_absolute_response_delta_pct": 0.00600608565499737,
+        "mean_absolute_rank_shift": 532.3516574259762,
+        "redistribution_sign_changes": 117,
+        "classic_only_top_100": [
+          "ENSP00000233615",
+          "ENSP00000296129",
+          "ENSP00000371420",
+          "ENSP00000378058",
+          "ENSP00000379092",
+          "ENSP00000380281",
+          "ENSP00000394720",
+          "ENSP00000411898",
+          "ENSP00000418112",
+          "ENSP00000432973",
+          "ENSP00000476145",
+          "ENSP00000494162",
+          "ENSP00000499037"
+        ],
+        "directed_only_top_100": [
+          "ENSP00000216373",
+          "ENSP00000262866",
+          "ENSP00000263593",
+          "ENSP00000263665",
+          "ENSP00000277575",
+          "ENSP00000323246",
+          "ENSP00000331831",
+          "ENSP00000334928",
+          "ENSP00000360683",
+          "ENSP00000379721",
+          "ENSP00000406286",
+          "ENSP00000442460",
+          "ENSP00000493728"
+        ]
+      },
+      "candidate_counts": {
+        "classic_positive": 16102,
+        "classic_loss": 852,
+        "directed_positive": 16113,
+        "directed_loss": 841
+      },
+      "target_pagerank": {
+        "classic": {
+          "ENSP00000275493": {
+            "baseline": 0.0008667547214391312,
+            "perturbed": 9.716755256780198e-06,
+            "delta": -0.000857037966182351
+          }
+        },
+        "directed": {
+          "ENSP00000275493": {
+            "baseline": 0.0008253201654894822,
+            "perturbed": 9.678946150554811e-06,
+            "delta": -0.0008156412193389274
+          }
+        }
+      },
+      "largest_direction_amplified": [
+        {
+          "entity": "ENSP00000411898",
+          "symbol": "EPGN",
+          "response_delta": 5.118645396396249
+        },
+        {
+          "entity": "ENSP00000296129",
+          "symbol": "CDCP1",
+          "response_delta": 4.500621707070163
+        },
+        {
+          "entity": "ENSP00000371420",
+          "symbol": "GPNMB",
+          "response_delta": 4.278703320455111
+        },
+        {
+          "entity": "ENSP00000378367",
+          "symbol": "NRG4",
+          "response_delta": 4.015327850928874
+        },
+        {
+          "entity": "ENSP00000494162",
+          "symbol": "CBLC",
+          "response_delta": 3.8382776495372983
+        },
+        {
+          "entity": "ENSP00000432973",
+          "symbol": "PTPRK",
+          "response_delta": 3.8266766135933272
+        },
+        {
+          "entity": "ENSP00000361214",
+          "symbol": "NRG3",
+          "response_delta": 3.4172560332296693
+        },
+        {
+          "entity": "ENSP00000379092",
+          "symbol": "BTC",
+          "response_delta": 3.238181263320126
+        },
+        {
+          "entity": "ENSP00000323246",
+          "symbol": "E2F7",
+          "response_delta": 2.651145229008284
+        },
+        {
+          "entity": "ENSP00000499037",
+          "symbol": "",
+          "response_delta": 2.525790699370587
+        }
+      ],
+      "largest_direction_attenuated": [
+        {
+          "entity": "ENSP00000394720",
+          "symbol": "SEMA4B",
+          "response_delta": -4.78028983792217
+        },
+        {
+          "entity": "ENSP00000366702",
+          "symbol": "ERRFI1",
+          "response_delta": -1.0495355892512226
+        },
+        {
+          "entity": "ENSP00000321573",
+          "symbol": "DCBLD2",
+          "response_delta": -0.8277741923148887
+        },
+        {
+          "entity": "ENSP00000281092",
+          "symbol": "FER",
+          "response_delta": -0.6758393147819866
+        },
+        {
+          "entity": "ENSP00000442460",
+          "symbol": "PTK6",
+          "response_delta": -0.6330662720791915
+        },
+        {
+          "entity": "ENSP00000360683",
+          "symbol": "PTPN1",
+          "response_delta": -0.597250958869137
+        },
+        {
+          "entity": "ENSP00000465039",
+          "symbol": "MAP4K1",
+          "response_delta": -0.5402910388645106
+        },
+        {
+          "entity": "ENSP00000371341",
+          "symbol": "TNK2",
+          "response_delta": -0.5323619107990383
+        },
+        {
+          "entity": "ENSP00000248594",
+          "symbol": "PTPN12",
+          "response_delta": -0.4909163899387492
+        },
+        {
+          "entity": "ENSP00000350224",
+          "symbol": "BMX",
+          "response_delta": -0.4499495105303215
+        }
+      ],
+      "direction_coverage_around_targets": {
+        "ENSP00000275493": {
+          "incident_arcs": 1909,
+          "omnipath_arcs": 165,
+          "coverage": 0.08643268727082241,
+          "in_degree": 963,
+          "out_degree": 946,
+          "fallback_arc_ratio": 0.9135673127291776,
+          "one_hop": {
+            "arcs": 303839,
+            "omnipath_arcs": 9831,
+            "resolved_fraction": 0.03235595167177354
+          },
+          "two_hop": {
+            "arcs": 999334,
+            "omnipath_arcs": 15230,
+            "resolved_fraction": 0.015240149939859947
+          }
+        }
+      },
+      "top_response_neighborhood_direction_coverage": {
+        "arcs": 47249,
+        "omnipath_arcs": 2123,
+        "resolved_fraction": 0.04493216787656882
+      },
+      "layer2_biological_sanity": {
+        "status": "AVAILABLE",
+        "relation_counts": {
+          "bidirectionally reachable": 18
+        },
+        "sign_context_counts": {
+          "uncertain": 18
+        },
+        "alternative_route_candidates": 18,
+        "limitations": [
+          "Directed signaling connectivity does not establish activity, compensation, drug resistance, causality in the analyzed tissue, or experimental validation. Network redistribution and biochemical activation sign are separate quantities."
+        ]
+      },
+      "runtime_seconds": {
+        "classic_reference": 0.15601919998880476,
+        "baseline_pagerank_seconds": 0.06665400008205324,
+        "perturbation_and_pagerank_seconds": 0.1549044999992475,
+        "directed_bc_seconds": 0.0,
+        "redistribution_seconds": 0.9587125000543892,
+        "total_seconds": 1.1812837000470608,
+        "comparison": 0.032587500056251884,
+        "compare_total": 2.772561199963093
+      }
+    },
+    "TP53": {
+      "targets": [
+        "ENSP00000269305"
+      ],
+      "target_symbols": [
+        "TP53"
+      ],
+      "classic_top_response": [
+        {
+          "entity": "ENSP00000472124",
+          "symbol": "NOTCH2NLB",
+          "response_pct": 14.533968663436687
+        },
+        {
+          "entity": "ENSP00000370624",
+          "symbol": "MIER3",
+          "response_pct": 13.607995946220019
+        },
+        {
+          "entity": "ENSP00000299157",
+          "symbol": "IKBIP",
+          "response_pct": -6.913781977181821
+        },
+        {
+          "entity": "ENSP00000301962",
+          "symbol": "USP42",
+          "response_pct": -6.7424908280433185
+        },
+        {
+          "entity": "ENSP00000338988",
+          "symbol": "PRELID3A",
+          "response_pct": 6.143532879615165
+        },
+        {
+          "entity": "ENSP00000344215",
+          "symbol": "TP53INP1",
+          "response_pct": -6.127938033215825
+        },
+        {
+          "entity": "ENSP00000376902",
+          "symbol": "BANP",
+          "response_pct": -5.7265676898525495
+        },
+        {
+          "entity": "ENSP00000217515",
+          "symbol": "TXNL1",
+          "response_pct": 5.512764862341351
+        },
+        {
+          "entity": "ENSP00000338927",
+          "symbol": "ZNF385A",
+          "response_pct": -5.490361097485231
+        },
+        {
+          "entity": "ENSP00000407442",
+          "symbol": "HIPK1",
+          "response_pct": -5.391489584904798
+        }
+      ],
+      "directed_top_response": [
+        {
+          "entity": "ENSP00000472124",
+          "symbol": "NOTCH2NLB",
+          "response_pct": 14.53074327894317
+        },
+        {
+          "entity": "ENSP00000370624",
+          "symbol": "MIER3",
+          "response_pct": 13.539252537367513
+        },
+        {
+          "entity": "ENSP00000344215",
+          "symbol": "TP53INP1",
+          "response_pct": -7.218337749097
+        },
+        {
+          "entity": "ENSP00000299157",
+          "symbol": "IKBIP",
+          "response_pct": -7.057538524933109
+        },
+        {
+          "entity": "ENSP00000301962",
+          "symbol": "USP42",
+          "response_pct": -6.995280530595409
+        },
+        {
+          "entity": "ENSP00000407442",
+          "symbol": "HIPK1",
+          "response_pct": -6.739492480155295
+        },
+        {
+          "entity": "ENSP00000338927",
+          "symbol": "ZNF385A",
+          "response_pct": -6.5963530047167085
+        },
+        {
+          "entity": "ENSP00000376902",
+          "symbol": "BANP",
+          "response_pct": -5.779331786960835
+        },
+        {
+          "entity": "ENSP00000217515",
+          "symbol": "TXNL1",
+          "response_pct": 5.460396530312122
+        },
+        {
+          "entity": "ENSP00000376848",
+          "symbol": "PRIMA1",
+          "response_pct": -5.2558326924499115
+        }
+      ],
+      "validation": {
+        "spearman_rank_correlation": 0.9274323948215397,
+        "pearson_response_correlation": 0.9127223490341525,
+        "overlap_at_20": 17,
+        "overlap_fraction_at_20": 0.85,
+        "jaccard_at_20": 0.7391304347826086,
+        "overlap_at_50": 41,
+        "overlap_fraction_at_50": 0.82,
+        "jaccard_at_50": 0.6949152542372882,
+        "overlap_at_100": 82,
+        "overlap_fraction_at_100": 0.82,
+        "jaccard_at_100": 0.6949152542372882,
+        "overlap_at_300": 260,
+        "overlap_fraction_at_300": 0.8666666666666667,
+        "jaccard_at_300": 0.7647058823529411,
+        "median_absolute_rank_shift": 494.5,
+        "mean_absolute_rank_shift": 985.6797215996226,
+        "largest_rank_increases": [
+          "ENSP00000295767",
+          "ENSP00000345571",
+          "ENSP00000167586",
+          "ENSP00000351273",
+          "ENSP00000360242",
+          "ENSP00000212015",
+          "ENSP00000221138",
+          "ENSP00000383042",
+          "ENSP00000241261",
+          "ENSP00000433623"
+        ],
+        "largest_rank_decreases": [
+          "ENSP00000392767",
+          "ENSP00000257572",
+          "ENSP00000276440",
+          "ENSP00000490240",
+          "ENSP00000315870",
+          "ENSP00000357736",
+          "ENSP00000354794",
+          "ENSP00000280904",
+          "ENSP00000357122",
+          "ENSP00000263946"
+        ],
+        "ranking_metric": "absolute redistribution percent"
+      },
+      "effect_size": {
+        "mean_absolute_response_delta_pct": 0.037037180792581004,
+        "median_absolute_response_delta_pct": 0.013669751096211814,
+        "mean_absolute_rank_shift": 985.6797215996226,
+        "redistribution_sign_changes": 268,
+        "classic_only_top_100": [
+          "ENSP00000202556",
+          "ENSP00000247970",
+          "ENSP00000261402",
+          "ENSP00000264904",
+          "ENSP00000284694",
+          "ENSP00000301030",
+          "ENSP00000301727",
+          "ENSP00000302114",
+          "ENSP00000307833",
+          "ENSP00000321239",
+          "ENSP00000335675",
+          "ENSP00000338988",
+          "ENSP00000342105",
+          "ENSP00000348206",
+          "ENSP00000354218",
+          "ENSP00000355924",
+          "ENSP00000361186",
+          "ENSP00000398596"
+        ],
+        "directed_only_top_100": [
+          "ENSP00000179259",
+          "ENSP00000238721",
+          "ENSP00000274289",
+          "ENSP00000276893",
+          "ENSP00000278903",
+          "ENSP00000286186",
+          "ENSP00000296591",
+          "ENSP00000307305",
+          "ENSP00000309132",
+          "ENSP00000311221",
+          "ENSP00000344635",
+          "ENSP00000349324",
+          "ENSP00000376822",
+          "ENSP00000379003",
+          "ENSP00000404503",
+          "ENSP00000429744",
+          "ENSP00000497482",
+          "ENSP00000497916"
+        ]
+      },
+      "candidate_counts": {
+        "classic_positive": 15786,
+        "classic_loss": 1168,
+        "directed_positive": 15770,
+        "directed_loss": 1184
+      },
+      "target_pagerank": {
+        "classic": {
+          "ENSP00000269305": {
+            "baseline": 0.0012720428636292386,
+            "perturbed": 1.0147796421085132e-05,
+            "delta": -0.0012618950672081534
+          }
+        },
+        "directed": {
+          "ENSP00000269305": {
+            "baseline": 0.0011705577358947462,
+            "perturbed": 1.0046522374639667e-05,
+            "delta": -0.0011605112135201065
+          }
+        }
+      },
+      "largest_direction_amplified": [
+        {
+          "entity": "ENSP00000354218",
+          "symbol": "PPP1R13L",
+          "response_delta": 4.833188418619844
+        },
+        {
+          "entity": "ENSP00000342105",
+          "symbol": "DYRK2",
+          "response_delta": 4.159892380680191
+        },
+        {
+          "entity": "ENSP00000261402",
+          "symbol": "NUAK1",
+          "response_delta": 4.0936140168513635
+        },
+        {
+          "entity": "ENSP00000284694",
+          "symbol": "C10orf90",
+          "response_delta": 3.977858346698246
+        },
+        {
+          "entity": "ENSP00000361186",
+          "symbol": "TP53RK",
+          "response_delta": 3.7103749055792585
+        },
+        {
+          "entity": "ENSP00000321239",
+          "symbol": "RCHY1",
+          "response_delta": 3.369249703307943
+        },
+        {
+          "entity": "ENSP00000301727",
+          "symbol": "E4F1",
+          "response_delta": 3.337155735350183
+        },
+        {
+          "entity": "ENSP00000355924",
+          "symbol": "SMYD2",
+          "response_delta": 3.3361458769065253
+        },
+        {
+          "entity": "ENSP00000202556",
+          "symbol": "PPP1R13B",
+          "response_delta": 3.019096883039243
+        },
+        {
+          "entity": "ENSP00000301030",
+          "symbol": "ANKRD11",
+          "response_delta": 2.61214051200306
+        }
+      ],
+      "largest_direction_attenuated": [
+        {
+          "entity": "ENSP00000338988",
+          "symbol": "PRELID3A",
+          "response_delta": -5.943464200614356
+        },
+        {
+          "entity": "ENSP00000302114",
+          "symbol": "PRELID1",
+          "response_delta": -4.556239959895102
+        },
+        {
+          "entity": "ENSP00000348206",
+          "symbol": "PRELID3B",
+          "response_delta": -3.764095714596355
+        },
+        {
+          "entity": "ENSP00000335675",
+          "symbol": "PRELID2",
+          "response_delta": -3.4587252111664397
+        },
+        {
+          "entity": "ENSP00000449795",
+          "symbol": "TRIAP1",
+          "response_delta": -3.1195253209584926
+        },
+        {
+          "entity": "ENSP00000278903",
+          "symbol": "EI24",
+          "response_delta": -2.8611519601702726
+        },
+        {
+          "entity": "ENSP00000398596",
+          "symbol": "TAMM41",
+          "response_delta": -2.1174131300180514
+        },
+        {
+          "entity": "ENSP00000349324",
+          "symbol": "TNFRSF10C",
+          "response_delta": -1.6620516331409563
+        },
+        {
+          "entity": "ENSP00000310263",
+          "symbol": "TNFRSF10D",
+          "response_delta": -1.5420413487047115
+        },
+        {
+          "entity": "ENSP00000306682",
+          "symbol": "PPM1D",
+          "response_delta": -1.4994795939319543
+        }
+      ],
+      "direction_coverage_around_targets": {
+        "ENSP00000269305": {
+          "incident_arcs": 2872,
+          "omnipath_arcs": 246,
+          "coverage": 0.08565459610027855,
+          "in_degree": 1442,
+          "out_degree": 1430,
+          "fallback_arc_ratio": 0.9143454038997214,
+          "one_hop": {
+            "arcs": 435690,
+            "omnipath_arcs": 10220,
+            "resolved_fraction": 0.023457045146778672
+          },
+          "two_hop": {
+            "arcs": 1004096,
+            "omnipath_arcs": 15224,
+            "resolved_fraction": 0.015161896870418764
+          }
+        }
+      },
+      "top_response_neighborhood_direction_coverage": {
+        "arcs": 59455,
+        "omnipath_arcs": 2525,
+        "resolved_fraction": 0.04246909427297956
+      },
+      "layer2_biological_sanity": {
+        "status": "AVAILABLE",
+        "relation_counts": {
+          "bidirectionally reachable": 12,
+          "indirect downstream": 4
+        },
+        "sign_context_counts": {
+          "uncertain": 16
+        },
+        "alternative_route_candidates": 13,
+        "limitations": [
+          "Directed signaling connectivity does not establish activity, compensation, drug resistance, causality in the analyzed tissue, or experimental validation. Network redistribution and biochemical activation sign are separate quantities."
+        ]
+      },
+      "runtime_seconds": {
+        "classic_reference": 0.14424369996413589,
+        "baseline_pagerank_seconds": 0.05527809995692223,
+        "perturbation_and_pagerank_seconds": 0.12837839999701828,
+        "directed_bc_seconds": 0.0,
+        "redistribution_seconds": 0.9360177000053227,
+        "total_seconds": 1.120635199942626,
+        "comparison": 0.03248160006478429,
+        "compare_total": 2.281873199972324
+      }
+    },
+    "MYC": {
+      "targets": [
+        "ENSP00000478887"
+      ],
+      "target_symbols": [
+        "MYC"
+      ],
+      "classic_top_response": [
+        {
+          "entity": "ENSP00000383986",
+          "symbol": "CDCA7L",
+          "response_pct": -4.9193977925269134
+        },
+        {
+          "entity": "ENSP00000424495",
+          "symbol": "ZNF346",
+          "response_pct": -4.906872342687364
+        },
+        {
+          "entity": "ENSP00000364885",
+          "symbol": "ZBTB17",
+          "response_pct": -3.9220550125728013
+        },
+        {
+          "entity": "ENSP00000243346",
+          "symbol": "NMI",
+          "response_pct": -3.8236760260861242
+        },
+        {
+          "entity": "ENSP00000294904",
+          "symbol": "RBMS1",
+          "response_pct": -3.786029317996488
+        },
+        {
+          "entity": "ENSP00000441214",
+          "symbol": "USP36",
+          "response_pct": -3.7704372124088628
+        },
+        {
+          "entity": "ENSP00000294740",
+          "symbol": "ZNF281",
+          "response_pct": -3.483576214976506
+        },
+        {
+          "entity": "ENSP00000357175",
+          "symbol": "ETV3",
+          "response_pct": -3.332419334215154
+        },
+        {
+          "entity": "ENSP00000295746",
+          "symbol": "CIP2A",
+          "response_pct": -3.168369890900444
+        },
+        {
+          "entity": "ENSP00000366221",
+          "symbol": "CASZ1",
+          "response_pct": 3.115844443066582
+        }
+      ],
+      "directed_top_response": [
+        {
+          "entity": "ENSP00000424495",
+          "symbol": "ZNF346",
+          "response_pct": -5.276955445235577
+        },
+        {
+          "entity": "ENSP00000383986",
+          "symbol": "CDCA7L",
+          "response_pct": -5.252963878682159
+        },
+        {
+          "entity": "ENSP00000441214",
+          "symbol": "USP36",
+          "response_pct": -4.420894756140846
+        },
+        {
+          "entity": "ENSP00000243346",
+          "symbol": "NMI",
+          "response_pct": -4.178733753821244
+        },
+        {
+          "entity": "ENSP00000364885",
+          "symbol": "ZBTB17",
+          "response_pct": -4.129715698556488
+        },
+        {
+          "entity": "ENSP00000294904",
+          "symbol": "RBMS1",
+          "response_pct": -4.050018777889137
+        },
+        {
+          "entity": "ENSP00000294740",
+          "symbol": "ZNF281",
+          "response_pct": -3.6617765846893877
+        },
+        {
+          "entity": "ENSP00000357175",
+          "symbol": "ETV3",
+          "response_pct": -3.5820696310692597
+        },
+        {
+          "entity": "ENSP00000295746",
+          "symbol": "CIP2A",
+          "response_pct": -3.4191402284879295
+        },
+        {
+          "entity": "ENSP00000391167",
+          "symbol": "DENND4A",
+          "response_pct": -3.1202570365980056
+        }
+      ],
+      "validation": {
+        "spearman_rank_correlation": 0.9806085081002008,
+        "pearson_response_correlation": 0.9452959769381403,
+        "overlap_at_20": 17,
+        "overlap_fraction_at_20": 0.85,
+        "jaccard_at_20": 0.7391304347826086,
+        "overlap_at_50": 43,
+        "overlap_fraction_at_50": 0.86,
+        "jaccard_at_50": 0.7543859649122807,
+        "overlap_at_100": 93,
+        "overlap_fraction_at_100": 0.93,
+        "jaccard_at_100": 0.8691588785046729,
+        "overlap_at_300": 279,
+        "overlap_fraction_at_300": 0.93,
+        "jaccard_at_300": 0.8691588785046729,
+        "median_absolute_rank_shift": 181.0,
+        "mean_absolute_rank_shift": 420.2381738822697,
+        "largest_rank_increases": [
+          "ENSP00000387699",
+          "ENSP00000405330",
+          "ENSP00000229795",
+          "ENSP00000378974",
+          "ENSP00000436786",
+          "ENSP00000371067",
+          "ENSP00000263025",
+          "ENSP00000385269",
+          "ENSP00000354394",
+          "ENSP00000278616"
+        ],
+        "largest_rank_decreases": [
+          "ENSP00000457258",
+          "ENSP00000355720",
+          "ENSP00000353863",
+          "ENSP00000346627",
+          "ENSP00000368572",
+          "ENSP00000269298",
+          "ENSP00000210060",
+          "ENSP00000411613",
+          "ENSP00000473381",
+          "ENSP00000337180"
+        ],
+        "ranking_metric": "absolute redistribution percent"
+      },
+      "effect_size": {
+        "mean_absolute_response_delta_pct": 0.010097340923196703,
+        "median_absolute_response_delta_pct": 0.002294784450605325,
+        "mean_absolute_rank_shift": 420.2381738822697,
+        "redistribution_sign_changes": 115,
+        "classic_only_top_100": [
+          "ENSP00000003302",
+          "ENSP00000247970",
+          "ENSP00000268383",
+          "ENSP00000359804",
+          "ENSP00000362608",
+          "ENSP00000380702",
+          "ENSP00000444596"
+        ],
+        "directed_only_top_100": [
+          "ENSP00000246912",
+          "ENSP00000262904",
+          "ENSP00000273390",
+          "ENSP00000329466",
+          "ENSP00000365280",
+          "ENSP00000401867",
+          "ENSP00000498665"
+        ]
+      },
+      "candidate_counts": {
+        "classic_positive": 16119,
+        "classic_loss": 835,
+        "directed_positive": 16128,
+        "directed_loss": 826
+      },
+      "target_pagerank": {
+        "classic": {
+          "ENSP00000478887": {
+            "baseline": 0.0006594291469709156,
+            "perturbed": 9.504708389597123e-06,
+            "delta": -0.0006499244385813185
+          }
+        },
+        "directed": {
+          "ENSP00000478887": {
+            "baseline": 0.0006563876843131289,
+            "perturbed": 9.503585773206403e-06,
+            "delta": -0.0006468840985399224
+          }
+        }
+      },
+      "largest_direction_amplified": [
+        {
+          "entity": "ENSP00000380702",
+          "symbol": "MYCBP",
+          "response_delta": 3.976031012560669
+        },
+        {
+          "entity": "ENSP00000444596",
+          "symbol": "MYCBP2",
+          "response_delta": 2.9724394712045537
+        },
+        {
+          "entity": "ENSP00000268383",
+          "symbol": "CDR2",
+          "response_delta": 2.549257960198228
+        },
+        {
+          "entity": "ENSP00000362608",
+          "symbol": "PIM1",
+          "response_delta": 2.52610516898909
+        },
+        {
+          "entity": "ENSP00000247970",
+          "symbol": "PIN1",
+          "response_delta": 2.1159391721871597
+        },
+        {
+          "entity": "ENSP00000003302",
+          "symbol": "USP28",
+          "response_delta": 2.0360084280768316
+        },
+        {
+          "entity": "ENSP00000359804",
+          "symbol": "FUBP1",
+          "response_delta": 1.7501376695215114
+        },
+        {
+          "entity": "ENSP00000351490",
+          "symbol": "MAX",
+          "response_delta": 1.2719608964688682
+        },
+        {
+          "entity": "ENSP00000339992",
+          "symbol": "MYB",
+          "response_delta": 1.0436310315044728
+        },
+        {
+          "entity": "ENSP00000340648",
+          "symbol": "HUWE1",
+          "response_delta": 0.9910116434611035
+        }
+      ],
+      "largest_direction_attenuated": [
+        {
+          "entity": "ENSP00000441214",
+          "symbol": "USP36",
+          "response_delta": -0.6504575437319828
+        },
+        {
+          "entity": "ENSP00000399475",
+          "symbol": "",
+          "response_delta": -0.6308374305601289
+        },
+        {
+          "entity": "ENSP00000367888",
+          "symbol": "LRP4",
+          "response_delta": -0.5213893981459164
+        },
+        {
+          "entity": "ENSP00000380467",
+          "symbol": "JMJD7",
+          "response_delta": -0.5150680243295324
+        },
+        {
+          "entity": "ENSP00000449381",
+          "symbol": "MAPKAPK5",
+          "response_delta": -0.5025004268419737
+        },
+        {
+          "entity": "ENSP00000346627",
+          "symbol": "TYW5",
+          "response_delta": -0.3885550586873541
+        },
+        {
+          "entity": "ENSP00000424495",
+          "symbol": "ZNF346",
+          "response_delta": -0.37008310254821364
+        },
+        {
+          "entity": "ENSP00000355720",
+          "symbol": "",
+          "response_delta": -0.35687696678719166
+        },
+        {
+          "entity": "ENSP00000243346",
+          "symbol": "NMI",
+          "response_delta": -0.3550577277351197
+        },
+        {
+          "entity": "ENSP00000383986",
+          "symbol": "CDCA7L",
+          "response_delta": -0.33356608615524586
+        }
+      ],
+      "direction_coverage_around_targets": {
+        "ENSP00000478887": {
+          "incident_arcs": 1816,
+          "omnipath_arcs": 78,
+          "coverage": 0.042951541850220265,
+          "in_degree": 922,
+          "out_degree": 894,
+          "fallback_arc_ratio": 0.9570484581497798,
+          "one_hop": {
+            "arcs": 328300,
+            "omnipath_arcs": 8834,
+            "resolved_fraction": 0.02690831556503198
+          },
+          "two_hop": {
+            "arcs": 999545,
+            "omnipath_arcs": 15211,
+            "resolved_fraction": 0.015217924155490748
+          }
+        }
+      },
+      "top_response_neighborhood_direction_coverage": {
+        "arcs": 48277,
+        "omnipath_arcs": 1941,
+        "resolved_fraction": 0.040205480870808046
+      },
+      "layer2_biological_sanity": {
+        "status": "AVAILABLE",
+        "relation_counts": {
+          "bidirectionally reachable": 10,
+          "indirect downstream": 5,
+          "upstream": 1,
+          "no directed path": 1
+        },
+        "sign_context_counts": {
+          "uncertain": 16,
+          "no_path": 1
+        },
+        "alternative_route_candidates": 12,
+        "limitations": [
+          "Directed signaling connectivity does not establish activity, compensation, drug resistance, causality in the analyzed tissue, or experimental validation. Network redistribution and biochemical activation sign are separate quantities."
+        ]
+      },
+      "runtime_seconds": {
+        "classic_reference": 0.14605290000326931,
+        "baseline_pagerank_seconds": 0.0642792999278754,
+        "perturbation_and_pagerank_seconds": 0.1534261000342667,
+        "directed_bc_seconds": 0.0,
+        "redistribution_seconds": 0.9080303000519052,
+        "total_seconds": 1.1267694000853226,
+        "comparison": 0.031598699977621436,
+        "compare_total": 1.9825239999918267
+      }
+    },
+    "TP53_EGFR_MYC": {
+      "targets": [
+        "ENSP00000269305",
+        "ENSP00000275493",
+        "ENSP00000478887"
+      ],
+      "target_symbols": [
+        "TP53",
+        "EGFR",
+        "MYC"
+      ],
+      "classic_top_response": [
+        {
+          "entity": "ENSP00000472124",
+          "symbol": "NOTCH2NLB",
+          "response_pct": 14.548399236984483
+        },
+        {
+          "entity": "ENSP00000370624",
+          "symbol": "MIER3",
+          "response_pct": 13.713817430772773
+        },
+        {
+          "entity": "ENSP00000366702",
+          "symbol": "ERRFI1",
+          "response_pct": -8.366968155956545
+        },
+        {
+          "entity": "ENSP00000299157",
+          "symbol": "IKBIP",
+          "response_pct": -6.798609617689213
+        },
+        {
+          "entity": "ENSP00000301962",
+          "symbol": "USP42",
+          "response_pct": -6.641784202568181
+        },
+        {
+          "entity": "ENSP00000338988",
+          "symbol": "PRELID3A",
+          "response_pct": 6.166771177409623
+        },
+        {
+          "entity": "ENSP00000344215",
+          "symbol": "TP53INP1",
+          "response_pct": -5.990842126971581
+        },
+        {
+          "entity": "ENSP00000217515",
+          "symbol": "TXNL1",
+          "response_pct": 5.698395523443189
+        },
+        {
+          "entity": "ENSP00000376902",
+          "symbol": "BANP",
+          "response_pct": -5.554084278709754
+        },
+        {
+          "entity": "ENSP00000362308",
+          "symbol": "SH3BGRL",
+          "response_pct": -5.371657994246264
+        }
+      ],
+      "directed_top_response": [
+        {
+          "entity": "ENSP00000472124",
+          "symbol": "NOTCH2NLB",
+          "response_pct": 14.545392834345023
+        },
+        {
+          "entity": "ENSP00000370624",
+          "symbol": "MIER3",
+          "response_pct": 13.631468549836612
+        },
+        {
+          "entity": "ENSP00000366702",
+          "symbol": "ERRFI1",
+          "response_pct": -9.45461803554999
+        },
+        {
+          "entity": "ENSP00000344215",
+          "symbol": "TP53INP1",
+          "response_pct": -7.1175591888455845
+        },
+        {
+          "entity": "ENSP00000299157",
+          "symbol": "IKBIP",
+          "response_pct": -6.943301648166473
+        },
+        {
+          "entity": "ENSP00000301962",
+          "symbol": "USP42",
+          "response_pct": -6.825206465076319
+        },
+        {
+          "entity": "ENSP00000407442",
+          "symbol": "HIPK1",
+          "response_pct": -6.573500327768554
+        },
+        {
+          "entity": "ENSP00000338927",
+          "symbol": "ZNF385A",
+          "response_pct": -6.448814308809342
+        },
+        {
+          "entity": "ENSP00000376902",
+          "symbol": "BANP",
+          "response_pct": -5.644608694323845
+        },
+        {
+          "entity": "ENSP00000217515",
+          "symbol": "TXNL1",
+          "response_pct": 5.642292458879179
+        }
+      ],
+      "validation": {
+        "spearman_rank_correlation": 0.9431732532593821,
+        "pearson_response_correlation": 0.9129544924493346,
+        "overlap_at_20": 16,
+        "overlap_fraction_at_20": 0.8,
+        "jaccard_at_20": 0.6666666666666666,
+        "overlap_at_50": 38,
+        "overlap_fraction_at_50": 0.76,
+        "jaccard_at_50": 0.6129032258064516,
+        "overlap_at_100": 78,
+        "overlap_fraction_at_100": 0.78,
+        "jaccard_at_100": 0.639344262295082,
+        "overlap_at_300": 256,
+        "overlap_fraction_at_300": 0.8533333333333334,
+        "jaccard_at_300": 0.7441860465116279,
+        "median_absolute_rank_shift": 344.0,
+        "mean_absolute_rank_shift": 779.4725106182161,
+        "largest_rank_increases": [
+          "ENSP00000318822",
+          "ENSP00000351209",
+          "ENSP00000480791",
+          "ENSP00000313950",
+          "ENSP00000362674",
+          "ENSP00000355370",
+          "ENSP00000368884",
+          "ENSP00000313983",
+          "ENSP00000052754",
+          "ENSP00000343741"
+        ],
+        "largest_rank_decreases": [
+          "ENSP00000340648",
+          "ENSP00000357702",
+          "ENSP00000314132",
+          "ENSP00000350223",
+          "ENSP00000356150",
+          "ENSP00000348206",
+          "ENSP00000399475",
+          "ENSP00000367888",
+          "ENSP00000338157",
+          "ENSP00000497594"
+        ],
+        "ranking_metric": "absolute redistribution percent"
+      },
+      "effect_size": {
+        "mean_absolute_response_delta_pct": 0.057082072417088764,
+        "median_absolute_response_delta_pct": 0.020206031737128566,
+        "mean_absolute_rank_shift": 779.4725106182161,
+        "redistribution_sign_changes": 271,
+        "classic_only_top_100": [
+          "ENSP00000247970",
+          "ENSP00000261402",
+          "ENSP00000284694",
+          "ENSP00000296129",
+          "ENSP00000302114",
+          "ENSP00000335675",
+          "ENSP00000338988",
+          "ENSP00000342105",
+          "ENSP00000348206",
+          "ENSP00000354218",
+          "ENSP00000359804",
+          "ENSP00000361186",
+          "ENSP00000362608",
+          "ENSP00000371420",
+          "ENSP00000380702",
+          "ENSP00000390158",
+          "ENSP00000394720",
+          "ENSP00000411898",
+          "ENSP00000432973",
+          "ENSP00000444596",
+          "ENSP00000449381",
+          "ENSP00000494162"
+        ],
+        "directed_only_top_100": [
+          "ENSP00000226230",
+          "ENSP00000252506",
+          "ENSP00000252809",
+          "ENSP00000256925",
+          "ENSP00000263593",
+          "ENSP00000270112",
+          "ENSP00000278903",
+          "ENSP00000302111",
+          "ENSP00000310263",
+          "ENSP00000310670",
+          "ENSP00000321573",
+          "ENSP00000339587",
+          "ENSP00000349324",
+          "ENSP00000373277",
+          "ENSP00000378193",
+          "ENSP00000379003",
+          "ENSP00000404503",
+          "ENSP00000419298",
+          "ENSP00000434776",
+          "ENSP00000479064",
+          "ENSP00000480301",
+          "ENSP00000499289"
+        ]
+      },
+      "candidate_counts": {
+        "classic_positive": 15564,
+        "classic_loss": 1388,
+        "directed_positive": 15561,
+        "directed_loss": 1391
+      },
+      "target_pagerank": {
+        "classic": {
+          "ENSP00000269305": {
+            "baseline": 0.0012720428636292596,
+            "perturbed": 1.0182840937698125e-05,
+            "delta": -0.0012618600226915616
+          },
+          "ENSP00000275493": {
+            "baseline": 0.0008667547214391308,
+            "perturbed": 9.742649222071623e-06,
+            "delta": -0.0008570120722170593
+          },
+          "ENSP00000478887": {
+            "baseline": 0.000659429146970908,
+            "perturbed": 9.529191708383004e-06,
+            "delta": -0.000649899955262525
+          }
+        },
+        "directed": {
+          "ENSP00000269305": {
+            "baseline": 0.0011705577358947328,
+            "perturbed": 1.0070121138580734e-05,
+            "delta": -0.001160487614756152
+          },
+          "ENSP00000275493": {
+            "baseline": 0.0008253201654894921,
+            "perturbed": 9.706151751897779e-06,
+            "delta": -0.0008156140137375943
+          },
+          "ENSP00000478887": {
+            "baseline": 0.0006563876843131372,
+            "perturbed": 9.529976271548895e-06,
+            "delta": -0.0006468577080415883
+          }
+        }
+      },
+      "largest_direction_amplified": [
+        {
+          "entity": "ENSP00000411898",
+          "symbol": "EPGN",
+          "response_delta": 5.085233892371474
+        },
+        {
+          "entity": "ENSP00000354218",
+          "symbol": "PPP1R13L",
+          "response_delta": 4.896046625287517
+        },
+        {
+          "entity": "ENSP00000247970",
+          "symbol": "PIN1",
+          "response_delta": 4.598638171104639
+        },
+        {
+          "entity": "ENSP00000296129",
+          "symbol": "CDCP1",
+          "response_delta": 4.492488622323167
+        },
+        {
+          "entity": "ENSP00000371420",
+          "symbol": "GPNMB",
+          "response_delta": 4.212095195727226
+        },
+        {
+          "entity": "ENSP00000342105",
+          "symbol": "DYRK2",
+          "response_delta": 4.153020235544883
+        },
+        {
+          "entity": "ENSP00000261402",
+          "symbol": "NUAK1",
+          "response_delta": 4.081386850241189
+        },
+        {
+          "entity": "ENSP00000378367",
+          "symbol": "NRG4",
+          "response_delta": 3.9734441522174357
+        },
+        {
+          "entity": "ENSP00000284694",
+          "symbol": "C10orf90",
+          "response_delta": 3.9706338163578265
+        },
+        {
+          "entity": "ENSP00000380702",
+          "symbol": "MYCBP",
+          "response_delta": 3.9677074600885174
+        }
+      ],
+      "largest_direction_attenuated": [
+        {
+          "entity": "ENSP00000338988",
+          "symbol": "PRELID3A",
+          "response_delta": -5.945442248899308
+        },
+        {
+          "entity": "ENSP00000394720",
+          "symbol": "SEMA4B",
+          "response_delta": -4.795786760229018
+        },
+        {
+          "entity": "ENSP00000302114",
+          "symbol": "PRELID1",
+          "response_delta": -4.559591436788365
+        },
+        {
+          "entity": "ENSP00000348206",
+          "symbol": "PRELID3B",
+          "response_delta": -3.765375343386922
+        },
+        {
+          "entity": "ENSP00000335675",
+          "symbol": "PRELID2",
+          "response_delta": -3.4612931490172953
+        },
+        {
+          "entity": "ENSP00000449795",
+          "symbol": "TRIAP1",
+          "response_delta": -3.1222240214941017
+        },
+        {
+          "entity": "ENSP00000278903",
+          "symbol": "EI24",
+          "response_delta": -2.857959006644491
+        },
+        {
+          "entity": "ENSP00000398596",
+          "symbol": "TAMM41",
+          "response_delta": -2.124095477871413
+        },
+        {
+          "entity": "ENSP00000349324",
+          "symbol": "TNFRSF10C",
+          "response_delta": -1.669569239333527
+        },
+        {
+          "entity": "ENSP00000306682",
+          "symbol": "PPM1D",
+          "response_delta": -1.6169489267564483
+        }
+      ],
+      "direction_coverage_around_targets": {
+        "ENSP00000269305": {
+          "incident_arcs": 2872,
+          "omnipath_arcs": 246,
+          "coverage": 0.08565459610027855,
+          "in_degree": 1442,
+          "out_degree": 1430,
+          "fallback_arc_ratio": 0.9143454038997214,
+          "one_hop": {
+            "arcs": 435690,
+            "omnipath_arcs": 10220,
+            "resolved_fraction": 0.023457045146778672
+          },
+          "two_hop": {
+            "arcs": 1004096,
+            "omnipath_arcs": 15224,
+            "resolved_fraction": 0.015161896870418764
+          }
+        },
+        "ENSP00000275493": {
+          "incident_arcs": 1909,
+          "omnipath_arcs": 165,
+          "coverage": 0.08643268727082241,
+          "in_degree": 963,
+          "out_degree": 946,
+          "fallback_arc_ratio": 0.9135673127291776,
+          "one_hop": {
+            "arcs": 303839,
+            "omnipath_arcs": 9831,
+            "resolved_fraction": 0.03235595167177354
+          },
+          "two_hop": {
+            "arcs": 999334,
+            "omnipath_arcs": 15230,
+            "resolved_fraction": 0.015240149939859947
+          }
+        },
+        "ENSP00000478887": {
+          "incident_arcs": 1816,
+          "omnipath_arcs": 78,
+          "coverage": 0.042951541850220265,
+          "in_degree": 922,
+          "out_degree": 894,
+          "fallback_arc_ratio": 0.9570484581497798,
+          "one_hop": {
+            "arcs": 328300,
+            "omnipath_arcs": 8834,
+            "resolved_fraction": 0.02690831556503198
+          },
+          "two_hop": {
+            "arcs": 999545,
+            "omnipath_arcs": 15211,
+            "resolved_fraction": 0.015217924155490748
+          }
+        }
+      },
+      "top_response_neighborhood_direction_coverage": {
+        "arcs": 86583,
+        "omnipath_arcs": 2735,
+        "resolved_fraction": 0.03158818705750552
+      },
+      "layer2_biological_sanity": {
+        "status": "AVAILABLE",
+        "relation_counts": {
+          "bidirectionally reachable": 42,
+          "indirect downstream": 6,
+          "upstream": 3
+        },
+        "sign_context_counts": {
+          "uncertain": 51
+        },
+        "alternative_route_candidates": 45,
+        "limitations": [
+          "Directed signaling connectivity does not establish activity, compensation, drug resistance, causality in the analyzed tissue, or experimental validation. Network redistribution and biochemical activation sign are separate quantities."
+        ]
+      },
+      "runtime_seconds": {
+        "classic_reference": 0.1565363999688998,
+        "baseline_pagerank_seconds": 0.06162579997908324,
+        "perturbation_and_pagerank_seconds": 0.1505464999936521,
+        "directed_bc_seconds": 0.0,
+        "redistribution_seconds": 0.9772920999675989,
+        "total_seconds": 1.1904521000105888,
+        "comparison": 0.032476300024427474,
+        "compare_total": 84.00384529994335
+      }
+    }
+  }
+}

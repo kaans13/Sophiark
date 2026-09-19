@@ -1,0 +1,12 @@
+{
+  "language": "Language",
+  "analysis_settings": "Analysis settings",
+  "workspace": "Workspace",
+  "organism": "Organism",
+  "tissue": "Tissue",
+  "target": "Target",
+  "advanced_settings": "Advanced settings",
+  "start_analysis": "Start analysis",
+  "number_genes_to_test": "Number of genes to test",
+  "gene_count_help": "Higher values perform a broader search but increase analysis time. A 100-gene scan may take approximately 5 minutes on the current system."
+}

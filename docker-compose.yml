@@ -1,0 +1,29 @@
+services:
+  sophiark:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "${SOPHIARK_PORT:-8501}:8501"
+    environment:
+      PORT: "8501"
+      SOPHIARK_ROOT: /app
+      SOPHIARK_DATA_DIR: /app/data
+      SOPHIARK_OUTPUT_DIR: /app/outputs
+      SOPHIARK_CACHE_DIR: /app/outputs/cache
+      SOPHIARK_HISTORY_DIR: /app/outputs/history
+    volumes:
+      - ./data:/app/data:ro
+      - sophiark_outputs:/app/outputs
+      - sophiark_mouse_outputs:/app/outputs_mouse
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8501/_stcore/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      start_period: 90s
+      retries: 3
+
+volumes:
+  sophiark_outputs:
+  sophiark_mouse_outputs:

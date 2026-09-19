@@ -1,0 +1,17 @@
+{
+  "policy": "Scientific calculation sources are read-only references. Update only after explicit numerical parity review.",
+  "files": [
+    {"path": "src/biology_logic.py", "sha256": "f831ab35bfa83e43a6094e75d78b8ad3832c2dd3ef30c6a9af00fbae556aaa73"},
+    {"path": "src/graph_engine.py", "sha256": "89647192f10b140261c5298fa8a621fbf67c871e8303207cb72fd402521d6591"},
+    {"path": "src/metrics.py", "sha256": "a48c3ddfa622943e3f9c8cd9c2af696b00a4d16141968fb26a5dc920a26e49ea"},
+    {"path": "src/main.py", "sha256": "4c4dd73a5faa27ac0ecdca318560555dc5e421e5084c9ee8d60cd3a212105c6f"},
+    {"path": "src/directed/engine.py", "sha256": "9ba6e14586fb530a587011ad70101538811702a370c9da0cbd9b456b43527c37"},
+    {"path": "src/directed/effective_graph.py", "sha256": "055ed9ce351195659bcdc5e2df64c60c5f6c0bb60bf6daff50aadf57e509d830"},
+    {"path": "src/directed/hybrid_graph.py", "sha256": "c7f8369a12b24cee1bdb6938892d1d3bbfcba13b193c7c801ca9a4066038425f"},
+    {"path": "src/directed/models.py", "sha256": "1ecf45e2d56c1994b949618359a418642c69003c3ac9ab809eeaad05cd4f14c4"},
+    {"path": "src/evidence/engine.py", "sha256": "df5c14124c5dcfa3d1d48012341d75efac9a3fa3983c4b0d983d76d2aea1be8c"},
+    {"path": "src/evidence/graph.py", "sha256": "a54c6f307aebc5b5b60d0446ffa434a45390faede0e4cd4daf2b5848945a3133"},
+    {"path": "src/evidence/scores.py", "sha256": "269f16775f1610aa4dec13424c769d2aa7abef784daf260d8601d1c79e203642"},
+    {"path": "src/evidence/config.py", "sha256": "0dd333bedfdeabb6a00d338889c79ced344ee0ae912393e830c4d90707a0f878"}
+  ]
+}
