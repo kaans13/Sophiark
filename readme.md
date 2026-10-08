@@ -227,7 +227,7 @@ If you use Sophiark in research, please cite the software and the corresponding 
 
 Sophiark is an actively developing research project.
 
-The current public release represents a reproducible research-oriented deployment snapshot. Future releases may extend network models, biological evidence integration, perturbation methods, and comparative analyses.
+The current public release represents a reproducible research-oriented deployment snapshot . Future releases may extend network models, biological evidence integration, perturbation methods, and comparative analyses.
 
 ---
 
